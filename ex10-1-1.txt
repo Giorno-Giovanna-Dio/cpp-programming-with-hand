@@ -1,0 +1,6 @@
+Introduction to Programming
+File I/O is useful.
+
+C++ is fun!
+Hello, World!
+Practice makes perfect.

@@ -9,17 +9,18 @@ int main(){
     ofstream out("input.txt");
 
     //out << "hello world";
-    
+
     for (int i = 0; i < 10; i++)
     {
         out << i << endl;
     }
     out.close();
 
-    ifstream in("input.txt");
+    ifstream in("input2.txt");
     //declare a string variable
     string text;
     
+    //reading whole line in action
     while (getline(in, text)){
         cout << text << endl;
     }
